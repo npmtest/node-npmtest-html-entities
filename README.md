@@ -1,19 +1,28 @@
-# test coverage for  [html-entities (v1.2.0)](https://github.com/mdevils/node-html-entities#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-html-entities.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-html-entities) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-html-entities.svg)](https://travis-ci.org/npmtest/node-npmtest-html-entities)
+# npmtest-html-entities
+
+#### basic test coverage for  [html-entities (v1.2.1)](https://github.com/mdevils/node-html-entities#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-html-entities.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-html-entities) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-html-entities.svg)](https://travis-ci.org/npmtest/node-npmtest-html-entities)
+
 #### Faster HTML entities encode/decode library.
 
-[![NPM](https://nodei.co/npm/html-entities.png?downloads=true)](https://www.npmjs.com/package/html-entities)
+[![NPM](https://nodei.co/npm/html-entities.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/html-entities)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-html-entities/tree/alpha)|
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-html-entities/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-html-entities/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-html-entities/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-html-entities/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-html-entities/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-html-entities/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-html-entities/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-html-entities/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-html-entities/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-html-entities/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-html-entities/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-html-entities/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-html-entities/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-html-entities/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-html-entities/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-html-entities%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-html-entities/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-html-entities/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-html-entities/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-html-entities/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-html-entities%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-html-entities/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-html-entities/build/test-report.html](https://npmtest.github.io/node-npmtest-html-entities/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-html-entities/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-html-entities/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-html-entities/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-html-entities/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-html-entities/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-html-entities/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-html-entities/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +36,7 @@
 
 {
     "author": {
-        "name": "Marat Dulin",
-        "email": "mdevils@yandex.ru"
+        "name": "Marat Dulin"
     },
     "bugs": {
         "url": "https://github.com/mdevils/node-html-entities/issues"
@@ -45,8 +53,8 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "41948caf85ce82fed36e4e6a0ed371a6664379e2",
-        "tarball": "https://registry.npmjs.org/html-entities/-/html-entities-1.2.0.tgz"
+        "shasum": "0df29351f0721163515dfb9e5543e5f6eed5162f",
+        "tarball": "https://registry.npmjs.org/html-entities/-/html-entities-1.2.1.tgz"
     },
     "engines": [
         "node >= 0.4.0"
@@ -56,7 +64,7 @@
         "lib",
         "LICENSE"
     ],
-    "gitHead": "3a2cd397697c872325f526bb422bdee74f089cda",
+    "gitHead": "dc08bde42ee6468d60ca617061b0b37b2edc45ca",
     "homepage": "https://github.com/mdevils/node-html-entities#readme",
     "keywords": [
         "html",
@@ -71,13 +79,11 @@
     "main": "index",
     "maintainers": [
         {
-            "name": "mdevils",
-            "email": "mdevils@yandex.ru"
+            "name": "mdevils"
         }
     ],
     "name": "html-entities",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/mdevils/node-html-entities.git"
@@ -97,7 +103,8 @@
             "test/**/*.js"
         ]
     },
-    "version": "1.2.0"
+    "version": "1.2.1",
+    "bin": {}
 }
 ```
 
